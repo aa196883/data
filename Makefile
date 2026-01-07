@@ -23,7 +23,7 @@ Musypher:
 	@echo "======================================="
 	@echo "Converting the MEI files to cypher dump"
 	@echo "======================================="
-	@python3 Musypher/main.py -nv -o $*/$(CYPHER_DIR)/ -q $@ $*/$(MEI_DIR)/*.mei
+	@python Musypher/main.py -nv -o $*/$(CYPHER_DIR)/ -q $@ $*/$(MEI_DIR)/*.mei
 
 #---Aggregate all cql files in an other cql file.
 load_all_DB.cql: $(all_cql)
