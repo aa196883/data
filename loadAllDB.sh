@@ -24,8 +24,8 @@ make
 echo "*************************";
 echo "Clearing the database ..."
 echo "*************************";
-cypher-shell -u $user -p $password -d $database --format verbose "match (n) detach delete n;"
-# cypher-shell -u $user -p $password -d $database --format verbose "match (n) return count(distinct n.inputfile);"
+docker exec -i skrid-neo4j cypher-shell -u $user -p $password -d $database --format verbose "match (n) detach delete n;"
+# docker exec -i skrid-neo4j cypher-shell -u $user -p $password -d $database --format verbose "match (n) return count(distinct n.inputfile);"
 
 #---Load all
 for d in */; do
@@ -34,7 +34,13 @@ for d in */; do
         echo "Loading the database '$d' ..."
         echo "*****************************";
 
-        cypher-shell -u $user -p $password -d $database --format verbose -f $d/load_DB.cql
+        # Read each cypher file path from load_DB.cql and pipe it to docker exec
+        while IFS= read -r cypherfile; do
+            if [ -f "$cypherfile" ]; then
+                echo "Loading $cypherfile ..."
+                docker exec -i skrid-neo4j cypher-shell -u $user -p $password -d $database --format verbose < "$cypherfile"
+            fi
+        done < "$d/load_DB.cql"
 
         echo "Done !"
     fi
