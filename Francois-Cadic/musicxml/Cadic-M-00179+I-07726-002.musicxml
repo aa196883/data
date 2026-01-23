@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00179.html - version 002</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00179.html - version 002</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +50,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top" xml:lang="fr">26 - Le filou rusé</credit-words>
@@ -73,7 +72,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure implicit="yes" number="0" width="299">
       <print>
@@ -99,7 +98,7 @@
       </attributes>
       <sound tempo="105">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <note default-x="125">
@@ -181,7 +180,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="1" width="235">
       <note default-x="10">
         <pitch>
@@ -192,7 +191,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -296,10 +295,10 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="2" width="269">
       <note default-x="10">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -336,7 +335,7 @@
         </lyric>
       </note>
       <note default-x="85">
-        <rest/>
+        <rest />
         <duration>1</duration>
         <voice>1</voice>
         <type>16th</type>
@@ -365,7 +364,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="25">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -397,7 +396,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="20">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -423,7 +422,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="3" width="250">
       <note default-x="10">
         <pitch>
@@ -434,7 +433,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -467,7 +466,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -500,7 +499,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="20">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -545,5 +544,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>

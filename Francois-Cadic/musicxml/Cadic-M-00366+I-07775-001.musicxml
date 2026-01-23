@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00366.html - version 001</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00366.html - version 001</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +50,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top" xml:lang="fr">81 - Quand on bat le blé noir</credit-words>
@@ -76,7 +75,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure number="1" width="214">
       <print>
@@ -102,7 +101,7 @@
       </attributes>
       <sound tempo="110">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <note default-x="110">
@@ -150,7 +149,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="2" width="195">
       <note default-x="14">
         <pitch>
@@ -214,7 +213,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="3" width="130">
       <note default-x="15">
         <pitch>
@@ -261,7 +260,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="4" width="120">
       <note default-x="11">
         <pitch>
@@ -312,7 +311,7 @@
         <bar-style>light-light</bar-style>
       </barline>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="5" width="129">
       <note default-x="13">
         <pitch>
@@ -359,7 +358,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="6" width="119">
       <note default-x="11">
         <pitch>
@@ -410,7 +409,7 @@
         <bar-style>light-light</bar-style>
       </barline>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X1" width="191">
       <print new-system="yes">
         <system-layout>
@@ -439,7 +438,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -464,7 +463,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X2" width="175">
       <note default-x="21">
         <pitch>
@@ -527,7 +526,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="7" width="128">
       <note default-x="10">
         <pitch>
@@ -551,7 +550,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -576,7 +575,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="8" width="157">
       <note default-x="13">
         <pitch>
@@ -625,10 +624,10 @@
       </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        <repeat direction="backward" winged="none"/>
+        <repeat direction="backward" winged="none" />
       </barline>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="9" width="130">
       <note default-x="6">
         <pitch>
@@ -638,7 +637,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="5">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -693,7 +692,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="10" width="125">
       <note default-x="19">
         <pitch>
@@ -740,7 +739,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X3" width="204">
       <print new-system="yes">
         <system-layout>
@@ -792,7 +791,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="11" width="128">
       <note default-x="19">
         <pitch>
@@ -826,7 +825,7 @@
         <bar-style>light-light</bar-style>
       </barline>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X4" width="164">
       <note default-x="16">
         <pitch>
@@ -836,7 +835,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="5">up</stem>
         <beam number="1">begin</beam>
         <lyric default-y="-80" number="1">
@@ -891,7 +890,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="12" width="140">
       <note default-x="19">
         <pitch>
@@ -938,7 +937,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="13" width="140">
       <note default-x="16">
         <pitch>
@@ -985,7 +984,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="14" width="130">
       <note default-x="19">
         <pitch>
@@ -1020,5 +1019,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>

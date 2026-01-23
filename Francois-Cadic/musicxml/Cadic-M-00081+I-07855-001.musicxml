@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00081.html - version 001</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00081.html - version 001</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +50,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top" xml:lang="fr">154 - Les lamentations du réfractaire</credit-words>
@@ -73,7 +72,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure implicit="yes" number="0" width="151">
       <print>
@@ -99,7 +98,7 @@
       </attributes>
       <sound tempo="130">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <note default-x="113">
@@ -117,7 +116,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X1" width="167">
       <note default-x="10">
         <pitch>
@@ -127,7 +126,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="5">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
@@ -180,7 +179,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X2" width="135">
       <note default-x="10">
         <pitch>
@@ -190,7 +189,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -198,7 +197,7 @@
         </lyric>
       </note>
       <note default-x="64">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -218,7 +217,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X3" width="155">
       <note default-x="11">
         <pitch>
@@ -229,7 +228,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-55">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -282,7 +281,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X4" width="134">
       <note default-x="10">
         <pitch>
@@ -292,7 +291,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -300,7 +299,7 @@
         </lyric>
       </note>
       <note default-x="64">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -320,7 +319,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X5" width="164">
       <note default-x="10">
         <pitch>
@@ -330,7 +329,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -383,7 +382,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X6" width="223">
       <print new-system="yes">
         <system-layout>
@@ -398,7 +397,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -406,7 +405,7 @@
         </lyric>
       </note>
       <note default-x="144">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -426,7 +425,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X7" width="173">
       <note default-x="11">
         <pitch>
@@ -437,7 +436,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-55">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>middle</syllabic>
@@ -491,7 +490,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X8" width="138">
       <note default-x="10">
         <pitch>
@@ -501,15 +500,15 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <notations>
-          <slur bezier-x="16" bezier-y="-14" default-x="6" default-y="-35" number="1" placement="below" type="start"/>
+          <slur bezier-x="16" bezier-y="-14" default-x="6" default-y="-35" number="1" placement="below" type="start" />
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
           <text>é</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="67">
@@ -522,20 +521,20 @@
         <type>quarter</type>
         <stem default-y="10">up</stem>
         <notations>
-          <slur bezier-x="-16" bezier-y="-14" default-x="6" default-y="-35" number="1" type="stop"/>
+          <slur bezier-x="-16" bezier-y="-14" default-x="6" default-y="-35" number="1" type="stop" />
         </notations>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
       <note default-x="110">
-        <rest/>
+        <rest />
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X9" width="208">
       <note default-x="10">
         <pitch>
@@ -593,12 +592,12 @@
         <stem default-y="-60">down</stem>
         <beam number="1">begin</beam>
         <notations>
-          <slur bezier-x="6" bezier-y="12" default-x="6" default-y="-15" number="1" placement="above" type="start"/>
+          <slur bezier-x="6" bezier-y="12" default-x="6" default-y="-15" number="1" placement="above" type="start" />
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>single</syllabic>
           <text>dré</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="145">
@@ -612,10 +611,10 @@
         <stem default-y="-57">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <slur bezier-x="-12" bezier-y="6" default-x="6" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-12" bezier-y="6" default-x="6" default-y="-5" number="1" type="stop" />
         </notations>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
       <note default-x="175">
@@ -635,7 +634,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X10" width="165">
       <note default-x="10">
         <pitch>
@@ -645,7 +644,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -699,7 +698,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X11" width="286">
       <print new-system="yes">
         <system-layout>
@@ -712,18 +711,18 @@
           <octave>4</octave>
         </pitch>
         <duration>1</duration>
-        <tie type="start"/>
+        <tie type="start" />
         <voice>1</voice>
         <type>eighth</type>
         <stem default-y="5">up</stem>
         <beam number="1">begin</beam>
         <notations>
-          <tied type="start"/>
+          <tied type="start" />
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
           <text>zon</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="122">
@@ -737,7 +736,7 @@
         <stem default-y="4">up</stem>
         <beam number="1">continue</beam>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
       <note default-x="161">
@@ -764,10 +763,10 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-10">up</stem>
         <notations>
-          <fermata default-x="-6" default-y="5" type="upright"/>
+          <fermata default-x="-6" default-y="5" type="upright" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -775,7 +774,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X12" width="260">
       <note default-x="10">
         <pitch>
@@ -833,12 +832,12 @@
         <stem default-y="-60">down</stem>
         <beam number="1">begin</beam>
         <notations>
-          <slur bezier-x="9" bezier-y="14" default-x="6" default-y="-15" number="1" placement="above" type="start"/>
+          <slur bezier-x="9" bezier-y="14" default-x="6" default-y="-15" number="1" placement="above" type="start" />
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>begin</syllabic>
           <text>en</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="176">
@@ -852,10 +851,10 @@
         <stem default-y="-57.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <slur bezier-x="-14" bezier-y="8" default-x="6" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-14" bezier-y="8" default-x="6" default-y="-5" number="1" type="stop" />
         </notations>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
       <note default-x="218">
@@ -875,7 +874,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X13" width="195">
       <note default-x="10">
         <pitch>
@@ -885,7 +884,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -938,7 +937,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X14" width="166">
       <note default-x="10">
         <pitch>
@@ -951,7 +950,7 @@
         <stem default-y="-55">down</stem>
         <beam number="1">begin</beam>
         <notations>
-          <slur bezier-x="10" bezier-y="9" default-x="6" default-y="-5" number="1" placement="above" type="start"/>
+          <slur bezier-x="10" bezier-y="9" default-x="6" default-y="-5" number="1" placement="above" type="start" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -970,7 +969,7 @@
         <stem default-y="-57.5">down</stem>
         <beam number="1">continue</beam>
         <notations>
-          <slur bezier-x="-9" bezier-y="10" default-x="6" default-y="-7" number="1" type="stop"/>
+          <slur bezier-x="-9" bezier-y="10" default-x="6" default-y="-7" number="1" type="stop" />
         </notations>
       </note>
       <note default-x="74">
@@ -998,7 +997,7 @@
         <type>quarter</type>
         <stem default-y="5">up</stem>
         <notations>
-          <fermata default-x="-6" default-y="15" type="upright"/>
+          <fermata default-x="-6" default-y="15" type="upright" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -1010,5 +1009,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>

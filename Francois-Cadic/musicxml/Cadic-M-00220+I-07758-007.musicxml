@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00220.html - version 007</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00220.html - version 007</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +50,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top" xml:lang="fr">64 - Jannic le bon garçon</credit-words>
@@ -76,7 +75,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure implicit="yes" number="0" width="149">
       <print>
@@ -112,7 +111,7 @@
       </attributes>
       <sound tempo="110">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <note default-x="107">
@@ -130,7 +129,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X1" width="319">
       <note default-x="10">
         <pitch>
@@ -200,7 +199,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-55">down</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -224,7 +223,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="2" text="1" width="305">
       <note default-x="10">
         <pitch>
@@ -282,7 +281,7 @@
         <stem default-y="20">up</stem>
         <beam number="1">end</beam>
         <notations>
-          <slur bezier-x="7" bezier-y="-12" default-x="15" default-y="-28" number="1" orientation="under" type="start"/>
+          <slur bezier-x="7" bezier-y="-12" default-x="15" default-y="-28" number="1" orientation="under" type="start" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>begin</syllabic>
@@ -290,7 +289,7 @@
         </lyric>
       </note>
       <note default-x="156">
-        <grace slash="no"/>
+        <grace slash="no" />
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -307,10 +306,10 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="10">up</stem>
         <notations>
-          <slur bezier-x="-12" bezier-y="-9" default-x="6" default-y="-35" number="1" type="stop"/>
+          <slur bezier-x="-12" bezier-y="-9" default-x="6" default-y="-35" number="1" type="stop" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -332,7 +331,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X2" width="282">
       <note default-x="10">
         <pitch>
@@ -410,7 +409,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="3" text="2" width="307">
       <print new-system="yes">
         <system-layout>
@@ -493,7 +492,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X3" width="331">
       <note default-x="10">
         <pitch>
@@ -602,13 +601,13 @@
         </lyric>
       </note>
       <note default-x="290">
-        <rest/>
+        <rest />
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="4" text="3" width="244">
       <note default-x="11">
         <pitch>
@@ -685,7 +684,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X4" width="172">
       <note default-x="10">
         <pitch>
@@ -697,7 +696,7 @@
         <type>half</type>
         <stem default-y="-5">up</stem>
         <notations>
-          <fermata default-x="-6" default-y="5" type="upright"/>
+          <fermata default-x="-6" default-y="5" type="upright" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -705,7 +704,7 @@
         </lyric>
       </note>
       <note default-x="161">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>half</type>
@@ -715,5 +714,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>

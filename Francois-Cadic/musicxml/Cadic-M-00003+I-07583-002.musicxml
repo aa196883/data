@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00003.html - version 002</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator>
+  <creator type="collection">François Cadic</creator>
+  <source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-00003.html - version 002</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +52,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top">83 - Le baron Fettinel de Koed-Sarre</credit-words>
@@ -73,7 +74,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure implicit="yes" number="0" width="175">
       <print>
@@ -99,7 +100,7 @@
       </attributes>
       <sound tempo="120">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <note default-x="119">
@@ -117,7 +118,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X1" width="192">
       <note default-x="21">
         <pitch>
@@ -165,7 +166,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X2" width="152">
       <note default-x="16">
         <pitch>
@@ -213,7 +214,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X3" width="113">
       <note default-x="11">
         <pitch>
@@ -223,15 +224,15 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-45">down</stem>
         <notations>
-          <slur bezier-x="20" bezier-y="14" default-x="6" default-y="3" number="1" placement="above" type="start"/>
+          <slur bezier-x="20" bezier-y="14" default-x="6" default-y="3" number="1" placement="above" type="start" />
         </notations>
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
           <text>niein</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="79">
@@ -244,14 +245,14 @@
         <type>eighth</type>
         <stem default-y="-50">down</stem>
         <notations>
-          <slur bezier-x="-17" bezier-y="18" default-x="6" default-y="-5" number="1" type="stop"/>
+          <slur bezier-x="-17" bezier-y="18" default-x="6" default-y="-5" number="1" type="stop" />
         </notations>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X4" width="159">
       <note default-x="16">
         <pitch>
@@ -299,7 +300,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X5" width="115">
       <note default-x="11">
         <pitch>
@@ -331,7 +332,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="6" text="1" width="287">
       <print new-system="yes">
         <system-layout>
@@ -381,7 +382,7 @@
         <lyric default-y="-80" justify="left" number="1">
           <syllabic>end</syllabic>
           <text>nein</text>
-          <extend type="start"/>
+          <extend type="start" />
         </lyric>
       </note>
       <note default-x="236">
@@ -396,11 +397,11 @@
         <stem default-y="-55">down</stem>
         <beam number="1">end</beam>
         <lyric number="1">
-          <extend type="stop"/>
+          <extend type="stop" />
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X6" width="113">
       <note default-x="17">
         <pitch>
@@ -417,7 +418,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="7" text="2" width="171">
       <note default-x="16">
         <pitch>
@@ -465,7 +466,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="8" text="3" width="164">
       <note default-x="10">
         <pitch>
@@ -512,7 +513,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="9" text="4" width="171">
       <note default-x="18">
         <pitch>
@@ -560,5 +561,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>

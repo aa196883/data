@@ -1,6 +1,6 @@
 #------Init
 #-Name of the collection folder
-collection = Albert-Poulain
+collection = Francois-Cadic
 
 #-Directories
 MUSICXML_DIR = musicxml
@@ -54,6 +54,7 @@ mei-obj: $(MEI_DIR) $(MEI_OBJECTS)
 
 $(MEI_DIR)/%.mei: $(MUSICXML_DIR)/%.musicxml
 	@verovio $^ -t mei -o $@
+	@python3 add_source_to_mei.py $^ $@
 
 #---Midi
 $(MID_DIR):
@@ -77,13 +78,13 @@ $(SVG_DIR):
 	@echo "*" > $@/.gitignore
 
 .PHONY: svg-obj
-svg-obj: $(SVG_DIR) $(SVG_OBJECTS)
+svg-obj: mei-obj $(SVG_DIR) $(SVG_OBJECTS)
 	@echo "======================"
 	@echo "Converted to SVG files"
 	@echo "======================"
 
-$(SVG_DIR)/%.svg: $(MUSICXML_DIR)/%.musicxml
-	@verovio $^ -t svg -o $@
+$(SVG_DIR)/%.svg: $(MEI_DIR)/%.mei
+	@verovio $^ -t svg --footer encoded --use-pg-footer-for-all --scale 40 -o $@
 
 #---musicxml (does nothing here as it is the source)
 $(MUSICXML_DIR):

@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <score-partwise version="4.0">
   <identification>
     <encoding>
       <software>Finale v27.4 for Mac</software>
       <encoding-date>2026-01-20</encoding-date>
-      <supports attribute="new-system" element="print" type="yes" value="yes"/>
-      <supports attribute="new-page" element="print" type="yes" value="yes"/>
-      <supports element="accidental" type="yes"/>
-      <supports element="beam" type="yes"/>
-      <supports element="stem" type="yes"/>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+      <supports element="accidental" type="yes" />
+      <supports element="beam" type="yes" />
+      <supports element="stem" type="yes" />
     </encoding>
-  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, CRBC, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-02012.html - version 001</source></identification>
+  <creator type="composer">Collecté par François Cadic</creator><creator type="collection">François Cadic</creator><source>Chansons populaires de Bretagne (1899-1929) - François Cadic, Dastum, PUR, 2010 - https://tob.kan.bzh/chant-02012.html - version 001</source></identification>
   <defaults>
     <scaling>
       <millimeters>7.2319</millimeters>
@@ -51,9 +50,9 @@
       <distance type="hyphen">60</distance>
       <distance type="beam">7.5</distance>
     </appearance>
-    <music-font font-family="Maestro,engraved" font-size="20.5"/>
-    <word-font font-family="Times New Roman" font-size="10.25"/>
-    <lyric-font font-family="Times New Roman" font-size="10.25"/>
+    <music-font font-family="Maestro,engraved" font-size="20.5" />
+    <word-font font-family="Times New Roman" font-size="10.25" />
+    <lyric-font font-family="Times New Roman" font-size="10.25" />
   </defaults>
   <credit page="1">
     <credit-words default-x="597" default-y="1440" font-size="18" font-weight="bold" justify="center" valign="top">28 - La chanson des aubergistes</credit-words>
@@ -73,7 +72,7 @@
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--=========================================================-->
+  
   <part id="P1">
     <measure implicit="yes" number="0" width="149">
       <print>
@@ -99,7 +98,7 @@
       </attributes>
       <sound tempo="110">
         <swing>
-          <straight/>
+          <straight />
         </swing>
       </sound>
       <direction placement="above">
@@ -123,7 +122,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="1" width="243">
       <note default-x="13">
         <pitch>
@@ -182,7 +181,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="2" width="194">
       <direction placement="below">
         <direction-type>
@@ -197,10 +196,10 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="21" bezier-y="-18" default-x="6" default-y="-60" number="1" placement="below" type="start"/>
+          <slur bezier-x="21" bezier-y="-18" default-x="6" default-y="-60" number="1" placement="below" type="start" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -217,7 +216,7 @@
         <type>quarter</type>
         <stem default-y="-15">up</stem>
         <notations>
-          <slur bezier-x="-21" bezier-y="-18" default-x="6" default-y="-60" number="1" type="stop"/>
+          <slur bezier-x="-21" bezier-y="-18" default-x="6" default-y="-60" number="1" type="stop" />
         </notations>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -239,7 +238,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="3" width="253">
       <note default-x="13">
         <pitch>
@@ -298,7 +297,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="4" width="214">
       <note default-x="13">
         <pitch>
@@ -315,13 +314,13 @@
         </lyric>
       </note>
       <note default-x="75">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
       <note default-x="114">
-        <rest/>
+        <rest />
         <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
@@ -341,7 +340,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X1" width="220">
       <print new-system="yes">
         <system-layout>
@@ -405,7 +404,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="5" width="194">
       <note default-x="20">
         <pitch>
@@ -415,7 +414,7 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <dot/>
+        <dot />
         <stem default-y="-15">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>single</syllabic>
@@ -464,7 +463,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="6" width="208">
       <note default-x="21">
         <pitch>
@@ -525,7 +524,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="7" width="210">
       <note default-x="21">
         <pitch>
@@ -586,7 +585,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="8" width="222">
       <note default-x="22">
         <pitch>
@@ -633,7 +632,7 @@
         </lyric>
       </note>
       <note default-x="154">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -642,7 +641,7 @@
         <bar-style>light-light</bar-style>
       </barline>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X2" width="237">
       <print new-system="yes">
         <system-layout>
@@ -663,7 +662,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -698,7 +697,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -733,7 +732,7 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <dot/>
+        <dot />
         <stem default-y="-10">up</stem>
         <lyric default-y="-80" number="1">
           <syllabic>end</syllabic>
@@ -741,13 +740,13 @@
         </lyric>
       </note>
       <note default-x="219">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="9" width="197">
       <note default-x="12">
         <pitch>
@@ -757,7 +756,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -792,7 +791,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -850,7 +849,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="10" width="122">
       <note default-x="27">
         <pitch>
@@ -867,25 +866,25 @@
         </lyric>
       </note>
       <note default-x="67">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
       </note>
       <note default-x="86">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
       <note default-x="103">
-        <rest/>
+        <rest />
         <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="11" width="165">
       <note default-x="13">
         <pitch>
@@ -895,7 +894,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -930,7 +929,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -972,13 +971,13 @@
         </lyric>
       </note>
       <note default-x="149">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="12" width="169">
       <note default-x="12">
         <pitch>
@@ -988,7 +987,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1023,7 +1022,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -1065,7 +1064,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="13" width="164">
       <note default-x="13">
         <pitch>
@@ -1075,7 +1074,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1110,7 +1109,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="6">up</stem>
         <beam number="1">continue</beam>
@@ -1152,13 +1151,13 @@
         </lyric>
       </note>
       <note default-x="147">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure implicit="yes" number="X3" width="208">
       <print new-system="yes">
         <system-layout>
@@ -1173,7 +1172,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="13">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1207,7 +1206,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="13">up</stem>
         <beam number="1">continue</beam>
         <beam number="2">continue</beam>
@@ -1250,13 +1249,13 @@
         </lyric>
       </note>
       <note default-x="193">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="14" width="166">
       <note default-x="13">
         <pitch>
@@ -1266,7 +1265,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1301,7 +1300,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -1343,13 +1342,13 @@
         </lyric>
       </note>
       <note default-x="151">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="15" width="202">
       <note default-x="13">
         <pitch>
@@ -1359,7 +1358,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1394,7 +1393,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -1452,7 +1451,7 @@
         </lyric>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="16" width="117">
       <note default-x="27">
         <pitch>
@@ -1469,25 +1468,25 @@
         </lyric>
       </note>
       <note default-x="65">
-        <rest/>
+        <rest />
         <duration>2</duration>
         <voice>1</voice>
         <type>16th</type>
       </note>
       <note default-x="83">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
       <note default-x="100">
-        <rest/>
+        <rest />
         <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="17" width="166">
       <note default-x="13">
         <pitch>
@@ -1497,7 +1496,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1532,7 +1531,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -1574,13 +1573,13 @@
         </lyric>
       </note>
       <note default-x="151">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
       </note>
     </measure>
-    <!--=======================================================-->
+    
     <measure number="18" width="193">
       <note default-x="13">
         <pitch>
@@ -1590,7 +1589,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <stem default-y="2.5">up</stem>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
@@ -1625,7 +1624,7 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>16th</type>
-        <dot/>
+        <dot />
         <accidental>flat</accidental>
         <stem default-y="2.5">up</stem>
         <beam number="1">continue</beam>
@@ -1667,7 +1666,7 @@
         </lyric>
       </note>
       <note default-x="169">
-        <rest/>
+        <rest />
         <duration>4</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -1677,5 +1676,5 @@
       </barline>
     </measure>
   </part>
-  <!--=========================================================-->
+  
 </score-partwise>
