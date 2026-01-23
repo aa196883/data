@@ -37,7 +37,7 @@ ARCHIVES = $(ARCHIVES_DIR)/$(collection)_FilesAll.zip $(ARCHIVES_DIR)/$(collecti
 # all: mei-obj mid-obj svg-obj mscz-obj pdf-obj archives-obj $(CYPHER_DIR)
 # all: $(DIRS) metadata mei-obj mid-obj svg-obj mscz-obj pdf-obj archives-obj $(CYPHER_DIR)
 # all: $(DIRS) mid-obj svg-obj mscz-obj pdf-obj archives-obj $(CYPHER_DIR)
-all: $(DIRS) mid-obj svg-obj mscz-obj pdf-obj $(CYPHER_DIR)
+all: $(DIRS) mei-obj mid-obj svg-obj mscz-obj pdf-obj $(CYPHER_DIR)
 #TODO: add ly-obj
 
 #---Mei
@@ -190,16 +190,6 @@ $(CYPHER_DIR):
 	@mkdir -p $@
 	@echo "*" > $@/.gitignore
 
-
-#---Metadata
-.PHONY: metadata
-metadata: $(MUSICXML_OBJECTS)
-	@echo "===================="
-	@echo "Editing metadata ..."
-	@echo "===================="
-	@for file in $^ ; do \
-		sh metadataPoulain.sh $${file} ; \
-	done;
 
 #---Clean
 .PHONY: clean
